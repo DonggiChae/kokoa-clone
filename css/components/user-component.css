@@ -51,3 +51,15 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__bang {
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: tomato;
+  text-align: center;
+  left: 20px;
+  bottom: 20px;
+}
