@@ -53,13 +53,22 @@
   display: block;
 }
 
-.user-component__bang {
-  width: 20px;
-  height: 20px;
+.user-component__circle__bang {
+  position: relative;
+  width: 12px;
+  height: 12px;
   border: 2px solid;
   border-radius: 50%;
   border-color: tomato;
+  margin-left: 240px;
+  margin-top: 30px;
+}
+
+.user-component__circle__bang {
+  position: absolute;
+  color: tomato;
+  font-size: 10px;
+  font-weight: 600;
   text-align: center;
-  left: 20px;
-  bottom: 20px;
+  padding-top: 2px;
 }
